@@ -1,0 +1,11 @@
+{
+
+  "route":"/api_cpp_startSession",
+  "module_access":"123",
+  "ip":"127.0.0.1",
+  "port":8002,
+  "model":"hostname",
+  "hostname":"warehouse.jtcool.com",
+
+  "log_route":"/api_cpp_receiveLog"
+}

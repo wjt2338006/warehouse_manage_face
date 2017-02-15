@@ -1,0 +1,17 @@
+{
+  "redis_ip": "127.0.0.1",
+  "redis_port": "6379",
+
+  "redis_recognize_list": "warehouse:faceRecognizeList",
+  "redis_facesize_list": "warehouse:faceRecognizeSizeList",
+  "redis_recognize_entrance_list":"warehouse:faceRecognizeEntranceList",
+
+  "redis_block_read": true,
+  "redis_block_timeout": " 10",
+
+  "redis_train_list":"warehouse:faceTrainList",
+  "redis_trainsize_list":"warehouse:faceTrainSizeList",
+  "redis_train_label_list":"warehouse:faceTrainLabelList",
+  "redis_train_action_list":"warehouse:faceTrainActionList"
+
+}
