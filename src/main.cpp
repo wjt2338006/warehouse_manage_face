@@ -116,7 +116,7 @@ void run()
                                           }
                                           //单线程处理训练
                                           unique_lock<mutex> lk(faceMutex);
-                                          //lk.lock();
+                                          lk.lock();
                                           if(action == string("train"))
                                           {
                                               faceModel.trainFace(label,someFace);
